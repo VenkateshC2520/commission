@@ -1,0 +1,14 @@
+print("program of Highest Average commission")
+
+k='y'
+while k=='y':
+    emp=float(input('Enter the employees'))
+    comm_rate=float(input('Enter commission rate'))
+    total=0
+    commission=emp*comm_rate
+    print("commission is",commission)
+    k=input('Enter y for yes')
+    total=total+commission
+    print("Total is",total)
+
+print("The total is",total) 
